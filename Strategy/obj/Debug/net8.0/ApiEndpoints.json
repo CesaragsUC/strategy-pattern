@@ -1,0 +1,58 @@
+[
+  {
+    "ContainingType": "Strategy.Controllers.PedidosController",
+    "Method": "Index",
+    "RelativePath": "api/pedidos/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Strategy.Controllers.PedidosController",
+    "Method": "Add",
+    "RelativePath": "api/pedidos/create/{meioPagamento}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "meioPagamento",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Strategy.Controllers.PedidosController",
+    "Method": "Delete",
+    "RelativePath": "api/pedidos/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Strategy.Controllers.PedidosController",
+    "Method": "Get",
+    "RelativePath": "api/pedidos/get",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Strategy.Controllers.PedidosController",
+    "Method": "Update",
+    "RelativePath": "api/pedidos/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
